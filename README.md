@@ -1,8 +1,12 @@
 # Compiler Design
 This repository contains my code for the ToY Compiler Project assignment for CSU33071 (Compiler Design I) at Trinity College Dublin. I have made a parser and type-checker for the language ToY. The implementation is made in Java using the tools JFlex and Bison. The language ToY is a simple imperative language with procedures and has many similarities with many similarities with C. You can learn more about ToY [here][here].
 
-# How our project works
+# How the project works
 Input is tokenized by the lexer during the lexical analysis stage. This is done by the `ToY.l` file. These tokens are passed to the bison parser during the parsing stage. This is done by the `ToY.y` file. There is an abstract syntax tree made out of the tokens. This will reinforce the particular layout of a ToY program. If a token is encountered, we use a symbol table to keep track of variables/dealing with redeclaration/variable types. This is done by the `SymbolTable.java` file. For structs, it can be a bit more tricky, as they can link to other structs. Hence, we make Struct objects for the symbol table whenever we encounter a struct. This is done with the help of the `Struct.java` file.
+
+<div align="center">
+<img width="570" alt="Screenshot 2022-05-09 at 09 03 18" src="https://user-images.githubusercontent.com/34750736/167367958-a0db0a08-ec31-46a6-aa43-adf724cf9c2f.png">
+</div>
 
 # How to compile the project
 Compiling the code is easy with the Makefile. Just do:
