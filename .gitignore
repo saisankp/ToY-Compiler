@@ -1,1 +1,6 @@
+*.java
+!SymbolTable.java
+!Struct.java
+*.class
+*.java~
 *.DS_Store
