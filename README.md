@@ -23,7 +23,7 @@ make test filename="filenamePath.txt"
 ```
 
 # How to access the test suite
-I have made pre-made test files in our testing suite which we have added along the development of this project to claim more partial marks in the case when our compiler has errors. These can be found in the `/testsuite` directory. Inside this directory, there are two more directories called `/ERROR` and `/VALID`. The `/ERROR` directory contains tests which **should fail**. The `/VALID` directory contains tests which **should not fail**. These tests are rigourous and ensure that our parser/type-checker is as correct as we can make it. To run one of our test files, you could do:
+I have made pre-made test files in our testing suite. These can be found in the `/testsuite` directory. Inside this directory, there are two more directories called `/ERROR` and `/VALID`. The `/ERROR` directory contains tests which **should fail**. The `/VALID` directory contains tests which **should not fail**. These tests are rigourous and ensure that our parser/type-checker is as correct as we can make it. To run one of our test files, you could do:
 
 ```
 make test filename="testsuite/VALID/complexStructUsageLinkingWithOtherStructs.txt"
