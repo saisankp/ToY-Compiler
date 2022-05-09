@@ -1,0 +1,17 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: there is not an equal number of opening and closing brackets in the complex boolean expression so it should cause an error.
+
+void main(){
+    bool a;
+    a = TRUE;
+    bool b;
+    b = FALSE;
+    bool c;
+    c = a&&((TRUE||FALSE)||(!(!(!(TRUE&&(a||FALSE)))));
+}

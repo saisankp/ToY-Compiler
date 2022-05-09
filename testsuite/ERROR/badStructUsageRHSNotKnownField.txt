@@ -1,0 +1,18 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: Bad struct usage with the RHS of dot not being a known field in that struct should cause an error by the parser.
+
+struct Company {
+string description,
+int totalEmployees 
+}
+
+void main (){
+    Company JoeJacksons;
+    JoeJacksons.totalRevenue = 1;
+}

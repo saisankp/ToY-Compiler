@@ -1,0 +1,17 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: A return type (i.e. string) not matching the method definition (i.e. int) should cause an error by the parser.
+
+void main (){
+    int a;
+    a=1;
+}
+
+int wrongFunction (){
+    return "meantToReturnAnInteger";
+}

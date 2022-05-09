@@ -1,0 +1,17 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: Yes
+
+// Description: Below are some complex integer expressions that the compiler should be able to handle
+
+void main (int a){
+    int a;
+    int b;
+    int c;
+    a = 5;
+    b = 100 + (((a + 5) / a ) + (a * 10));
+    c = a+((123*(((a*10)/(b/2))/(100-25)))/3);
+}

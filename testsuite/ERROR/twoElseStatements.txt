@@ -1,0 +1,14 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: more than one consecutive else statement should cause an error.
+
+void main(){
+    int i;
+    i = 2;
+    if(i>3) then printf("greater"); else printf("less"); else printf("less");
+}

@@ -1,0 +1,27 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: Yes
+
+// Description: Having complicated struct usage that links to other structs should parse properly.
+
+struct Company {
+    string description,
+    int totalEmployees
+}
+
+struct WorldCompanies {
+    Company microsoft
+}
+
+struct TopCompanies {
+    WorldCompanies companiesInTheWorld
+}
+
+void main(){
+    WorldCompanies wc;
+    //If you set the value below to an integer such as 1, it would raise an error since description in the Company struct is a string.
+    wc.microsoft.description = "An amazing place to work";
+}

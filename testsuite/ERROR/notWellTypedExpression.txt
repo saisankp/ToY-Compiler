@@ -1,0 +1,18 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: Expressions that are not well typed (such as false+1 and !10) should cause an error by the parser.
+
+void main (){
+    bool a;
+    a = false + 1;
+}
+
+void anotherFault (){
+    int a;
+    a = !10;
+}

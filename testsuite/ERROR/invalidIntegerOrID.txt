@@ -1,0 +1,13 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: An invalid integer/ID should cause an error by the lexer.
+
+void main(){
+    int a;
+    a=2xe4;
+}

@@ -1,0 +1,18 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: Bad struct usage with the LHS of dot in variable reference not being a known struct should cause an error by the parser.
+
+struct Company {
+string description,
+int totalEmployees 
+}
+
+void main (){
+    Company microsoft;
+    unknownStruct.description = "hi";
+}

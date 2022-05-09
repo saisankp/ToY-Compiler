@@ -1,0 +1,16 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: The operator === is not supported in ToY, so an error should be caused.
+
+void main(){
+    string a;
+    a = "2";
+    if(a === "2"){
+      a = "3";
+    }
+}

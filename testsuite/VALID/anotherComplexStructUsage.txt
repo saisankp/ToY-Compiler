@@ -1,0 +1,37 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: Yes
+
+// Description: Having complicated struct usage that links to other structs should parse properly.
+
+struct Name {
+string first_name ,
+string last_name
+}
+struct Employee {
+Name name
+}
+struct Dept {
+Employee head
+}
+
+void main (int a){
+    Employee em1;
+	em1.name.first_name = "hi";
+    Dept dept1;
+    dept1.head.name.first_name = "hi";
+}
+
+void main2(int a){
+    Dept dept1;
+    dept1.head.name.first_name = "hi";
+}
+
+void main3(int a){
+    Name name1;
+    name1.first_name = "hi";
+}
+

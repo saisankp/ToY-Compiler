@@ -1,0 +1,18 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: struct variable reference on LHS (i.e. string) equated to a different type (i.e. int) on RHS should cause an error by the parser.
+
+struct Company {
+string description,
+int totalEmployees 
+}
+
+void main (){
+    Company microsoft;
+    microsoft.description = 1;
+}

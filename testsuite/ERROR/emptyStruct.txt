@@ -1,0 +1,16 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: A struct should have at least one declaration
+
+struct Name {
+
+}
+
+void main(){
+    int a;
+}

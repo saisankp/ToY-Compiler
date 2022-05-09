@@ -1,0 +1,13 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: A boolean operator cannot be applied to a string, so an error should be caused.
+
+void main(){
+    string a;
+    a = !"s";
+}

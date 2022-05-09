@@ -1,0 +1,15 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: A dot operator can only be performed on an identifier, not a primitive data type.
+
+void main(){
+    int a;
+    a = 5;
+    int b;
+    b = a.value;
+}

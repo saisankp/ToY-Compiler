@@ -1,0 +1,13 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: An integer operation cannot be performed on a boolean value, so an error should be caused.
+
+void main(){
+    boolean a;
+    a = TRUE + FALSE;
+}

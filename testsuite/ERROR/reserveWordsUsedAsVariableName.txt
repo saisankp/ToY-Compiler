@@ -1,0 +1,12 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: A reserve word (i.e. int, bool etc) used as a variable name should cause an error by the parser.
+
+void main(){
+    int int;
+}

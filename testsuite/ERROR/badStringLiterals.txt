@@ -1,0 +1,13 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: A bad string literal should cause an error by the lexer.
+
+void main(){
+    string a;
+    a = "badStringLiteral;
+}

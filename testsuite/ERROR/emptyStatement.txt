@@ -1,0 +1,13 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: An empty statements between semicolons should throw an error
+
+void main(){
+    string a; ;
+    string b;
+}

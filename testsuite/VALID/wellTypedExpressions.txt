@@ -1,0 +1,13 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: Yes
+
+// Description: Well-typed expressions should parse properly.
+
+void main(){
+    int a;
+    a = (5+6) + 2;
+}

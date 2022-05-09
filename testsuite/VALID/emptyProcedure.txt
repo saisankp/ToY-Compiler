@@ -1,0 +1,16 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: Yes
+
+// Description: A procedure can have no statements as long as it's return type is void
+
+void main(){
+
+}
+
+void proc(){
+
+}

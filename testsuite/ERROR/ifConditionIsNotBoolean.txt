@@ -1,0 +1,14 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: If the if-condition is not a boolean (i.e. a statement such as j+1;), that should cause an error by the parser.
+
+void main (){
+    int i;
+    int j;
+    if (j+1;) then j=0;
+}

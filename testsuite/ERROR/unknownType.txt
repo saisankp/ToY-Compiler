@@ -1,0 +1,12 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: float is not supported by ToY, so it should throw an error.
+
+void main(){
+    float a;
+}

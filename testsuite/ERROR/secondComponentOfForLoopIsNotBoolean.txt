@@ -1,0 +1,16 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: If the second component of a for loop is not a boolean expression (i.e. b=0; is rather a statement) should cause an error by the parser.
+
+void main (){
+    int a;
+    int b;
+    for(a=0; b=0; a=a+1;){
+        b=b+1;
+    }
+}

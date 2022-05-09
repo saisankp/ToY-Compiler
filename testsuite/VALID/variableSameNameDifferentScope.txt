@@ -1,0 +1,23 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: Yes
+
+// Description: The same variable name can be used, as long as it is a different scope. 
+
+int addNumbers(int a, int b){
+    int sum;
+    sum = a + b;
+    return sum;
+}
+
+void main(){
+    
+    int num1;
+    num1 = 1;
+    int num2;
+    num2 = 2;
+    sum = num1 + num2;
+}

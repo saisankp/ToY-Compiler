@@ -1,0 +1,13 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: ToY only supports double quotes to represent a string, so single quotes should cause an error 
+
+void main(){
+    string a;
+    a = 'hello world!';
+}

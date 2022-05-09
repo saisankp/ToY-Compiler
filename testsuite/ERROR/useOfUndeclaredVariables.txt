@@ -1,0 +1,12 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: A variable being assigned a value without being declared previously should cause an error by the parser.
+
+void main(){
+    a=1;
+}

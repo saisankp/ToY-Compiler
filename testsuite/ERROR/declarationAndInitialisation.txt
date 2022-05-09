@@ -1,0 +1,12 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: A variable in ToY cannot both be declared and initialised on the same line like it can in Java.
+
+void main(){
+    int a = 5;
+}

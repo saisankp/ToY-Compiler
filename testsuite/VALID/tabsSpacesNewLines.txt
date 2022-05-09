@@ -1,0 +1,16 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: Yes
+
+// Description: compiler should accept statements that are seperated by multiple whitespaces, newlines, and tabs
+
+void main(){
+    string a;
+
+		string b;
+
+	a = "hello";   b = "world!";
+}

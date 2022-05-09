@@ -1,0 +1,13 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: A variable that was declared previously that is redeclared should cause an error by the parser.
+
+void main(){
+    int a;
+    bool a;
+}

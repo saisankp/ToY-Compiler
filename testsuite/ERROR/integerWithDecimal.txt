@@ -1,0 +1,13 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: An error should occur when 
+
+void main(){
+    int a;
+    a = 100.0;
+}

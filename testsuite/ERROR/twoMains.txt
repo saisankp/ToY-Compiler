@@ -1,0 +1,17 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: The program can have only one main function, so two or more should cause an error.
+
+void main(){
+   int num1;
+}
+
+void main(){
+    string a;
+    string b;
+}

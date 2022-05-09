@@ -1,0 +1,19 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: A procedure should only have one return statement, so there should be an error if 2 or more appear.
+
+int addNumbers(int a, int b, int c){
+    return a + b;
+    return b + c;
+    return a + c;
+}
+
+void main(){
+    string a;
+    a = "badStringLiteral;
+}

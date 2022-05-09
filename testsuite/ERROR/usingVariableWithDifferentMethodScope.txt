@@ -1,0 +1,19 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: Using a variable which has a different scope (i.e. maybe in another function) should cause an error by the parser.
+
+void main(){
+    int a;
+    a=5;
+    
+}
+
+void differentScopedFunction(){
+    int b;
+    a=b;
+}

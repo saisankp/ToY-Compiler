@@ -1,0 +1,13 @@
+// Group 9
+
+// - Prathamesh Sai Sankar
+// - Tomasz Bogun
+
+// Valid: No
+
+// Description: An integer smaller than Integer.MIN_VALUE (i.e. -32768 for the ToY language) should cause an error by the lexer.
+
+void main(){
+    int a;
+    a=-32769;
+}
